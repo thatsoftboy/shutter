@@ -5602,7 +5602,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5261496132979400369}
-  - component: {fileID: -3373194959862325050}
   m_Layer: 0
   m_Name: demo_city_by_versatile_studio
   m_TagString: Untagged
@@ -5629,28 +5628,6 @@ Transform:
   - {fileID: 243241431290442499}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &-3373194959862325050
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4778115209328083979}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &4785086406999189145
 GameObject:
   m_ObjectHideFlags: 0

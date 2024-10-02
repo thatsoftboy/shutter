@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1284704505380985877}
   - component: {fileID: 2773078712933733296}
   - component: {fileID: 116815604065511290}
-  - component: {fileID: 4404862815419796076}
+  - component: {fileID: 8966659637462735742}
   m_Layer: 0
   m_Name: factory_chimney-stalk
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4404862815419796076
-MeshCollider:
+--- !u!65 &8966659637462735742
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,7 +102,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4853450064615875810, guid: bd90c18828aee314ca349257d59d1542, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 10.000111, y: 52.00011, z: 12.000111}
+  m_Center: {x: -0.00000023841858, y: 26, z: 0}
