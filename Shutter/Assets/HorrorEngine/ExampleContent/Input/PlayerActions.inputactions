@@ -256,7 +256,7 @@
                 {
                     "name": "",
                     "id": "4482426c-55cc-4085-9f35-f5ceea9eb227",
-                    "path": "<Gamepad>/buttonWest",
+                    "path": "<Gamepad>/rightShoulder",
                     "interactions": "Press(behavior=2)",
                     "processors": "",
                     "groups": "Gamepad",
@@ -382,6 +382,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "Retro Horror",
+            "bindingGroup": "Retro Horror",
+            "devices": []
         }
     ]
 }
