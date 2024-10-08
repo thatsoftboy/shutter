@@ -280,7 +280,7 @@ namespace HorrorEngine
                 {
                     ""name"": """",
                     ""id"": ""4482426c-55cc-4085-9f35-f5ceea9eb227"",
-                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
@@ -406,6 +406,11 @@ namespace HorrorEngine
                     ""isOR"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Retro Horror"",
+            ""bindingGroup"": ""Retro Horror"",
+            ""devices"": []
         }
     ]
 }");
@@ -603,6 +608,15 @@ namespace HorrorEngine
             {
                 if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
                 return asset.controlSchemes[m_KeyboardSchemeIndex];
+            }
+        }
+        private int m_RetroHorrorSchemeIndex = -1;
+        public InputControlScheme RetroHorrorScheme
+        {
+            get
+            {
+                if (m_RetroHorrorSchemeIndex == -1) m_RetroHorrorSchemeIndex = asset.FindControlSchemeIndex("Retro Horror");
+                return asset.controlSchemes[m_RetroHorrorSchemeIndex];
             }
         }
         public interface IGameplayActions
