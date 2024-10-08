@@ -342,7 +342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Item: {fileID: 11400000, guid: 5bac8dbb311284b85a00faca85506be6, type: 2}
   m_Depletion: 0.0025
-  m_DepletionFrequency: 0.2
+  m_DepletionFrequency: 0
   OnDepleted:
     m_PersistentCalls:
       m_Calls:
